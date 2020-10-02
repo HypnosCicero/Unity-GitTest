@@ -10,6 +10,7 @@ using UnityEngine.Experimental.GlobalIllumination;
 /// </summary>
 public class Line : MonoBehaviour
 {
+    private string str = "Second"; 
     public GameObject obj1,obj2;
     public LineRenderer lin;
     public float LineSize = 0.5f;
